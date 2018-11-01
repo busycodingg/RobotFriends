@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/busycodingg/hello/precache-manifest.16483083a8d3739f49c211b162f73541.js"
+  "/busycodingg/Robotfriends/precache-manifest.72ea398271c4c1b03c83a6a539f2d3c2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/busycodingg/hello/index.html", {
+workbox.routing.registerNavigationRoute("/busycodingg/Robotfriends/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
